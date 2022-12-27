@@ -14,10 +14,17 @@ This is a simple unit tester for C++.
 ```c++
 #include "framework.h"
 
-TEST_CASE("Test 1") {
-    ASSERT(1 == 1);
+int test_calculate_sphere_volume()
+{
+    double expected = 4188.79; // volume esperado para o raio igual a 10
+    double result = volume_esfera(10.0);
+
+    int assert_result = ASSERT_EQUALS(expected, result);
+    return assert_result;
 }
 ```
+
+If you need test an string return, you can casting the `std::stoi(result)`for example.
 
 In your Makefile, include the framework folder like this:
 
