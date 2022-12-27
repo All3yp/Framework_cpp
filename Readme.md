@@ -7,7 +7,7 @@ This is a simple unit tester for C++.
 1. Include the `framework.h` file in your test file.
 2. Run the test with the `make tester` command.
 
-[example](carbon.png)
+<img src="https://user-images.githubusercontent.com/29764688/209596632-43fa5e1b-0257-4e72-885d-422cdcb9f891.png" width="320" height="310" />
 
 ## Example
 
